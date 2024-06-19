@@ -1,0 +1,41 @@
+.content {
+  background-color: #FFF;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-field input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000; /* adicionado borda preta */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-submit {
+  background-color: #FFA500;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 auto;
+}
