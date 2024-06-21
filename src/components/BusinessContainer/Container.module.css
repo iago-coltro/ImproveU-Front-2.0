@@ -1,11 +1,11 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
   padding: 20px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 900px;
   width: 100%;
   height: auto;
   background-color: blueviolet;
@@ -16,4 +16,4 @@
   width: 300px;
   
 
-}
+} */

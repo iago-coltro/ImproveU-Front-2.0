@@ -1,23 +1,24 @@
-.input-field {
+.container {
   box-sizing: border-box;
   background-color: aquamarine;
+  max-width: 400px;
   width: 100%;
-  margin: 20px 0px;
+  margin: 10px 0px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
-  flex: 1;
   justify-content: space-evenly;
 }
 
-.input-field label {
+.container label {
   font-size: 16px;
   font-weight: bold;
 }
 
-#teste {
+.container input {
   width: 100%;
   padding: 8px;
-  border: 1px solid var(--cinza-claro-medio); /* adicionado borda preta */
+  border: 1px solid #000; /* adicionado borda preta */
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 8px;
 }

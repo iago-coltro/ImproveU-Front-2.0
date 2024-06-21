@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
-import './AuthenticationLink.css'
+import './LoginLink.css'
 
-function AuthenticationLink({ url, children }) {
+function LoginLink({ url, children }) {
   return (
     <div className="authentication-link">
       <Link to={url} className="link">
@@ -11,4 +11,4 @@ function AuthenticationLink({ url, children }) {
   )
 }
 
-export default AuthenticationLink;
+export default LoginLink;

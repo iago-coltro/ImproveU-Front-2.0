@@ -1,19 +1,18 @@
-import Container from 'components/Container'
-import Header from 'components/Header'
-import Authentication from 'pages/Authentication'
+import Container from 'components/BusinessContainer/Container';
+import Login from 'pages/Login/Login';
+import App from './App'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
-      <Header />
+    <BrowserRouter>      
       <Container>
         <Routes>
-        <Route path="/" element={<Authentication />}></Route>   
-          <Route path="/login" element={<Authentication />}></Route>         
-          <Route path="/register" element={<Authentication />}></Route>         
-          <Route path="/esqueci-minha-senha" element={<Authentication />}></Route>
+          <Route path="/" element={<Login />}></Route>   
+          <Route path="/login" element={<Login />}></Route>         
+          <Route path="/app" element={<App />}></Route>         
+
         </Routes>
       </Container>
     </BrowserRouter>

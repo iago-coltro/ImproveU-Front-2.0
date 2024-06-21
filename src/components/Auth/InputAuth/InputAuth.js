@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import './InputAuthentication.css';
+import styles from './InputAuth.module.css';
 
-export default function InputAuthentication(props) {
+export default function InputAuth(props) {
 
   const placeholderText = `${props.placeholder}...` 
-
 
   const [value, setValue] = useState();
 
@@ -16,9 +15,10 @@ export default function InputAuthentication(props) {
   const inputRequired = props.required ?? false;
 
   return(
-    <div className={"input-field"}>
-      <label>{props.label}</label>      
-      <input id="teste" value={props?.value} type={ inputType} onChange={onTyping} required={inputRequired} placeholder={placeholderText} />
+    <div className={styles.container}>
+      <label>{props.label}      
+        <input value={props?.value} type={ inputType} onChange={onTyping} required={inputRequired} placeholder={placeholderText} />
+      </label>
     </div>
   )
 }

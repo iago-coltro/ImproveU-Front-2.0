@@ -1,14 +1,31 @@
-.Login {
+.container {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: #FFA500;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 40%;
+  margin: 10% auto ;
+  background-color: #fff;
   color: #000;
+  border-radius: 30px;
 }
 
+.container img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container .form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
 
 .content {
-  background-color: #FFF;
+  background-color: #fffdfd;
   padding: 20px;
   flex: 1;
 }

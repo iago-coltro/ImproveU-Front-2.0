@@ -1,0 +1,22 @@
+.container {
+  box-sizing: border-box;
+  /* max-width: ; */
+  width: 600px;
+  margin: 10% auto;
+  padding: 8px;
+  /* background-color: #f9f9f9; */
+  background-color: red;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  flex-start;
+}
+
+.container h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
